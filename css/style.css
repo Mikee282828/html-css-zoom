@@ -1,10 +1,37 @@
-:root{
-    
-}
-
 *{
     box-sizing: border-box;
     font-family: sans-serif;
-    padding:1 rem;
+    padding:0;
     margin:0;
+    color:white;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+}
+.flex-container{
+    display:flex;
+}
+.main{
+    width:100%;
+    padding:0 3%;
+    padding-top:3%;
+    padding-bottom:1%;
+    flex-flow:row wrap;
+    gap: 0.5%;
+}
+.participants{
+    width:calc((96% / 7) - 3%);
+    position:relative;
+    
+}
+[alt ="foto-profilo"]{
+    width:100%;
+}
+.name-bkg{
+    background-color: rgba(0, 0, 0, 0.259);
+    position:absolute;
+    padding:0.5rem;
+    bottom:0;
 }
